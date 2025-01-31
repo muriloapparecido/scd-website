@@ -15,3 +15,48 @@ html, body {
     line-height: 100px; 
     border-bottom: 5px solid black; 
 }
+
+.content {
+    display: flex;
+    background-color: green;
+    height: 100%; 
+    transition: all 0.3s ease-in-out; /* Smooth transition for changes */
+ }
+ 
+ 
+ .menu{
+    background-color: #FF7F7F;
+    width: 0; 
+    height: 100%;
+    overflow: hidden; 
+    transition: width 0.3s ease-in-out;
+ }
+ 
+ .menu ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    color: white;
+}
+
+.menu ul li {
+    padding: 10px 0;
+}
+ 
+ .info{
+    background-color: pink;
+    flex-grow: 1; 
+ }
+ 
+ /* Toggle button */
+.toggle-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #8A0303;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px; 
+}
