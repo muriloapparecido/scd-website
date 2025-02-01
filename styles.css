@@ -20,15 +20,15 @@ html, body {
     display: flex;
     background-color: green;
     height: 100%; 
-    transition: all 0.3s ease-in-out; /* Smooth transition for changes */
+    transition: all 0.3s ease-in-out; 
+    font-size: 18px;
  }
  
  
  .menu{
-    background-color: #FF7F7F;
+    background-color: #8A0303;
     width: 0; 
     height: 100%;
-    overflow: hidden; 
     transition: width 0.3s ease-in-out;
  }
  
@@ -44,11 +44,15 @@ html, body {
 }
  
  .info{
-    background-color: pink;
+    background-color: #FAF9F6;
     flex-grow: 1; 
+    padding: 20px; 
  }
+
+.info h2 {
+    border-bottom: 2px solid black; 
+}
  
- /* Toggle button */
 .toggle-btn {
     position: absolute;
     top: 20px;
@@ -59,4 +63,23 @@ html, body {
     border: none;
     cursor: pointer;
     font-size: 24px; 
+}
+li a {
+    width: 100px; 
+    height: 100px;
+    text-decoration: none; 
+    color: white;
+}
+
+.images {
+    margin-top: 20px; 
+    display: flex; 
+    justify-content: center;
+    gap: 100px; 
+    height: 600px;
+}
+
+img {
+    width: 35%; 
+    text-align: center;
 }
