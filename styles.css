@@ -18,7 +18,6 @@ html, body {
 
 .content {
     display: flex;
-    background-color: green;
     height: 100%; 
     transition: all 0.3s ease-in-out; 
     font-size: 18px;
@@ -47,6 +46,8 @@ html, body {
     background-color: #FAF9F6;
     flex-grow: 1; 
     padding: 20px; 
+    height: 100%; 
+    overflow: hidden;
  }
 
 .info h2 {
@@ -82,4 +83,11 @@ li a {
 img {
     width: 35%; 
     text-align: center;
+}
+
+.symptoms-image{
+    margin-top: -150px;
+    max-height: 70%;  
+    width: 100%;      
+    object-fit: contain;  
 }
