@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class = "header">
+        Recognizing the Symptoms
+    </h1>
+    <div class = "content">
+        <button class="toggle-btn" onclick="toggleMenu()">☰</button>
+
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rts.html">Recognizing the Symptoms</a></li>
+                <li><a href="complications.html">Complications</a></li>
+                <li><a href="https://secure.givelively.org/donate/sickle-cell-disease-association-of-america-inc/donate-today-to-fight-for-a-cure">Donate</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="info">
+            <h2>Contact Us</h2>
+                <h3>Have Questions? We're Here to Help!</h3>
+                <p>If you have any questions about sickle cell disease or need support,
+                    feel free to reach out through any of these methos.</p>
+                <ul>
+                    <li>Email: SCOA@help.com </li>
+                    <li>Phone: 480-301-8000</li>
+                    <li>Locations: Scottsdale, AZ</li>
+                </ul>
+                <h3>Helpful Links: </h3>
+                <ul>
+                    <li><a href="https://www.sicklecelldisease.org/" class="link">Sickle Cell Disease Association of America (SCDAA) (https://www.sicklecelldisease.org/)</a></li>
+                    <li><a href="https://www.cdc.gov/sicklecell/index.html" class="link">CDC Sickle Cell Disease Information (https://www.cdc.gov/sicklecell/index.html)</a></li>
+                </ul>                
+        </div>
+    </div> 
+    <script>
+        // Function to toggle the menu's visibility
+        function toggleMenu() {
+            const menu = document.querySelector('.menu');
+            const isOpen = menu.style.width === '200px'; 
+
+            if (isOpen) {
+                menu.style.width = '0'; 
+            } else {
+                menu.style.width = '200px'; 
+            }
+        }
+    </script>
+</body>
+</html>
