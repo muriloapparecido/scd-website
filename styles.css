@@ -91,3 +91,8 @@ img {
     width: 100%;      
     object-fit: contain;  
 }
+
+.complications-image {
+    width: 500px;
+    height: 450px;
+}
