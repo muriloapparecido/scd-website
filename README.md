@@ -12,3 +12,13 @@ Sickle cell disease is a genetic blood disorder that affects millions of people 
 
 ## Technologies Used
 - **HTML/CSS**: For structuring and styling the website.
+
+Click the video or link below to see the website in action!
+
+https://muriloapparecido.github.io/scd-website/
+
+  <div>
+    <a href="https://www.loom.com/share/1d519c2dc667426397df8a46870f1ea9">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/1d519c2dc667426397df8a46870f1ea9-27e2d8a247ab3a68-full-play.gif">
+    </a>
+  </div>
